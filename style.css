@@ -1,0 +1,220 @@
+body {
+    font-family: 'Montserrat';
+}
+
+
+#title {
+    background-color: #fa224a;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 12% 7%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px 0;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 30%;
+    border-radius: 59% 41% 60% 40% / 42% 38% 62% 58%;
+    position: absolute;
+    right: 15%;
+
+
+}
+
+#features {
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #fff;
+    position: relative;
+}
+
+#features h3 {
+    color: #212E52;
+}
+
+.icons {
+    color: #fa224a;
+    line-height: 1.5;
+}
+
+p {
+    color: #6d6364;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.feature-box {
+    padding: 0 3% 0;
+}
+
+.icons:hover {
+    color: #f14848;
+}
+
+#testimonials {
+    background-color: #fa224a;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+}
+
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #fa224a;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+
+#cta h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icon {
+    padding: 3% 1%;
+}
+
+.footer-icon:hover {
+    color: #6d6364;
+    cursor: pointer;
+}
+
+.btn-class-extra {
+    border-radius: 10px;
+    border: 0.5px solid #212E52;
+}
+
+.btn-class-extra:hover {
+    background-color: #212E52;
+    color: #fff;
+}
+
+.btn-class {
+    background-color: #212E52;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn-class:hover {
+    background-color: #fff;
+    border: 0.5px solid #212E52;
+}
+
+.card-header {
+    background-color: #212E52;
+    color: #fff;
+}
+
+@media(max-width:1028px) {
+    .title-img {
+        position: static;
+        transform: none;
+        width: 60%;
+
+    }
+
+    h1 {
+        text-align: center;
+
+    }
+}
+
+/* EXTRA */
+.ielts {
+    color: #212E52;
+}
+
+#testimonials p {
+    padding-top: 4px;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+#testimonials h3 {
+    padding: 1rem 0 2rem;
+    color: #212E52;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.band-icons {
+    padding-right: 15px;
+}
+
+.num {
+    padding-left: 20px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4 {
+    padding-top: 2rem;
+    color: #212E52;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
